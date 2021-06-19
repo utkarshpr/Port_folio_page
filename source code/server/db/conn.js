@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 //const DB = process.env.DATABASE;
 const DB =
-  'mongodb+srv://utkarsh:uttu5563@cluster0.smtao.mongodb.net/mernyoutube?retryWrites=true&w=majority';
+  'your db link';
 mongoose
   .connect(DB, {
     useNewUrlParser: true,
